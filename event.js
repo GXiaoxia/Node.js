@@ -17,7 +17,7 @@ myEmitter.on("sbqEvent",function(){
 myEmitter.emit("sbqEvent");
 
 
-// 监听器函数可以使用setInnediate()或process.nextTick()方法切换到异步操作模式
+// 监听器函数可以使用setImmediate()或process.nextTick()方法切换到异步操作模式
 myEmitter.on('sbqevent',(a,b) => {
 	setImmediate(() => {
 		console.log('这个是异步发生的');
