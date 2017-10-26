@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Website</title>
+	<link rel="stylesheet" type="text/css" href="../assets/style.css">
+</head>
+<body>
+	<% include ../public/nav.ejs %>
+	<h1>这是第<%= id %>篇博客</h1>
+	<!-- <p>
+		<strong>标题: </strong><%= data.title %> 
+		<strong>内容: </strong><%= data.body %> 
+		<strong>作者: </strong><%= data.author %> 
+	</p> -->
+	<ul>
+		<% data.forEach(function(sbqitem){ %>
+			<li>
+				<strong>标题: </strong><%= sbqitem.title %> 
+				<strong>内容: </strong><%= sbqitem.body %> 
+				<strong>作者: </strong><%= sbqitem.author %>
+			</li>
+		<% }) %>
+	</ul>
+</body>
+</html>
+
+<!-- 拿数据有等号,逻辑无等号 <%= %> -->
+<!-- 换行需要有首尾标签 -->
