@@ -28,9 +28,9 @@ app.listen(3000);		// 第二个参数默认localhost
 	1.cd 文件夹
 	2.cnpm —version
 	3.sudo cnpm install nodemon -g	// nodemon自动重启项目工程
-	4.npm init --yes			// 生成package.json
-	5.cnpm install express --save
-	6.nodemon app	            // 运行    html文件需要写rs     
+	4.npm init --yes		// 生成package.json
+	5.cnpm install express --save	// 安装本地express
+	6.nodemon app	            	// 运行    html文件需要写rs     
 */
 /*
 Express路由:
