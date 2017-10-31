@@ -11,6 +11,7 @@ cnpm install grunt --save
 创建Gruntfile.js文件
 
 cnpm install grunt-contrib-(cssmin) --save
+
 cnpm install grunt-contrib-(uglify) --save
 
 在终端输入grunt运行
