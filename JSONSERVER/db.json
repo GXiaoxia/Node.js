@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "name": "Henry1",
+      "phone": "123344",
+      "email": "11@qq.com",
+      "age": "30",
+      "id": 1,
+      "companyId": 1
+    },
+    {
+      "name": "Henry2",
+      "phone": "123344",
+      "email": "11@qq.com",
+      "age": "30",
+      "id": 2,
+      "companyId": 2
+    },
+    {
+      "name": "guo",
+      "phone": "123344",
+      "email": "11@qq.com",
+      "age": "30",
+      "id": 4,
+      "companyId": 3
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "description": "Apple is Apple"
+    },
+    {
+      "id": 2,
+      "name": "Microsoft",
+      "description": "Microsoft is Microsoft"
+    },
+    {
+      "id": 3,
+      "name": "Google",
+      "description": "Google is Google"
+    }
+  ]
+}
